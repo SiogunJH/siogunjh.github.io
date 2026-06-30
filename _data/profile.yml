@@ -1,0 +1,20 @@
+name: Jakub Hojda
+headline: Unity Developer and Porting Specialist
+location: Wielka Wies, Poland
+email: homarofficial@gmail.com
+phone: "+48 512 558 574"
+summary:
+  - I am a Unity and C# developer focused on gameplay systems, optimization, and preparing games for platform requirements.
+  - I have worked in commercial and indie environments, from small teams to international collaboration, delivering products to Steam and console stores.
+  - I value clear communication, maintainable architecture, and practical problem solving across development and release workflows.
+availability_note: Open to Unity gameplay, optimization, and porting opportunities.
+links:
+  - label: GitHub
+    url: https://github.com/SiogunJH
+  - label: itch.io
+    url: https://siogunjh.itch.io
+  - label: Discord
+    url: https://discord.com/users/SiogunJH
+  - label: Email
+    url: mailto:homarofficial@gmail.com
+

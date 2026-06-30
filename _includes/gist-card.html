@@ -1,0 +1,22 @@
+<article class="card gist-card">
+  <header class="card-header">
+    <h3>{{ gist.title }}</h3>
+    <span class="badge">{{ gist.language }}</span>
+  </header>
+  <p>{{ gist.description }}</p>
+  {% if gist.tags and gist.tags.size > 0 %}
+  <div class="chip-row">
+    {% for tag in gist.tags %}
+    <span class="chip">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+  <p class="muted">{{ gist.status }}</p>
+  <p class="inline-links">
+    {% if gist.gist_url %}
+    <a href="{{ gist.gist_url }}" target="_blank" rel="noopener noreferrer">Open gist</a> /
+    {% endif %}
+    <a href="{{ gist.repository_url }}" target="_blank" rel="noopener noreferrer">GitHub profile</a>
+  </p>
+</article>
+

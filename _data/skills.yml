@@ -1,0 +1,57 @@
+- category: Core Development
+  items:
+    - name: Unity Engine
+      level: Expert
+    - name: C#
+      level: Expert
+    - name: Gameplay Systems
+      level: Advanced
+    - name: Performance Optimization
+      level: Advanced
+
+- category: Porting and Platform
+  items:
+    - name: Console Porting Workflow
+      level: Advanced
+    - name: Console SDK Integration
+      level: Advanced
+    - name: Input and Controller Support
+      level: Advanced
+    - name: Localization Systems
+      level: Advanced
+
+- category: Unity Ecosystem
+  items:
+    - name: UniTask
+      level: Advanced
+    - name: DOTween
+      level: Advanced
+    - name: Zenject
+      level: Intermediate
+    - name: Unity Analytics
+      level: Intermediate
+    - name: Odin Inspector
+      level: Intermediate
+    - name: Unity Localization
+      level: Advanced
+
+- category: Audio and Tooling
+  items:
+    - name: FMOD
+      level: Intermediate
+    - name: Git
+      level: Advanced
+    - name: Plastic SCM
+      level: Advanced
+    - name: ClickUp
+      level: Intermediate
+    - name: Notion
+      level: Intermediate
+
+- category: Languages
+  items:
+    - name: Polish
+      level: Native
+    - name: English
+      level: C1
+
