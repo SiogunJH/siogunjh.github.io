@@ -4,15 +4,24 @@ title: Portfolio
 description: Unity developer portfolio with projects, skills, and technical case studies.
 ---
 {% assign profile = site.data.profile %}
-{% include hero.html
-  kicker="Portfolio"
-  title=profile.name
-  summary=profile.summary[0]
-  links=profile.links
-%}
+<section class="hero container">
+  <p class="hero-kicker">Portfolio</p>
+  <h1>{{ profile.name }}</h1>
+  <p class="hero-summary">{{ profile.summary[0] }}</p>
+  {% if profile.links and profile.links.size > 0 %}
+  <div class="hero-actions">
+    {% for link in profile.links %}
+    <a class="button-link" href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>
 
 <section class="container">
-  {% include section-title.html title="About me" subtitle=profile.headline %}
+  <div class="section-title">
+    <h2>About me</h2>
+    <p>{{ profile.headline }}</p>
+  </div>
   <div class="card">
     <p><strong>Location:</strong> {{ profile.location }}</p>
     <p><strong>Contact:</strong> <a href="mailto:{{ profile.email }}">{{ profile.email }}</a> / <a href="tel:{{ profile.phone | replace: ' ', '' }}">{{ profile.phone }}</a></p>

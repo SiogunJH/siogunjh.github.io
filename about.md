@@ -6,7 +6,10 @@ permalink: /about/
 ---
 {% assign profile = site.data.profile %}
 
-{% include section-title.html title="Profile" subtitle=profile.headline %}
+<div class="section-title">
+  <h2>Profile</h2>
+  <p>{{ profile.headline }}</p>
+</div>
 <div class="card">
   <p><strong>Name:</strong> {{ profile.name }}</p>
   <p><strong>Location:</strong> {{ profile.location }}</p>
