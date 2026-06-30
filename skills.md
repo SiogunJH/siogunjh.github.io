@@ -20,4 +20,3 @@ permalink: /skills/
   </article>
   {% endfor %}
 </div>
-

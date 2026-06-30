@@ -1,36 +1,12 @@
-- id: intent-token-matcher
-  title: Intent Token Matcher (Unity C#)
-  description: Token-based parser for matching STT text against gameplay command patterns with required and optional token sets.
+- id: sample-gist-preview
+  title: Camera Controller (Unity C#)
+  description: Unity CameraController component using Cinemachine priorities, Zenject injection, and focus/unfocus events coordinated by CameraManager.
   language: C#
   tags:
     - Unity
-    - NLP
-    - STT
-  gist_url:
-  repository_url: https://github.com/SiogunJH
-  status: Add gist URL when published
-
-- id: intent-fuzzy-matcher
-  title: Intent Fuzzy Matcher (Levenshtein)
-  description: Fuzzy matcher that scores phrase similarity and resolves non-identical voice commands with configurable confidence thresholds.
-  language: C#
-  tags:
-    - Unity
-    - Algorithms
-    - Voice Control
-  gist_url:
-  repository_url: https://github.com/SiogunJH
-  status: Add gist URL when published
-
-- id: console-controller-prompts
-  title: Dynamic Console Controller Prompt Mapping
-  description: Runtime UI prompt mapping for platform-specific input hints across PlayStation, Xbox, and Nintendo Switch.
-  language: C#
-  tags:
-    - Unity
-    - UI
-    - Console
-  gist_url:
-  repository_url: https://github.com/SiogunJH
-  status: Add gist URL when published
-
+    - Cinemachine
+    - Zenject
+    - Odin
+  gist_url: https://gist.github.com/SiogunJH/7787619aedbfcd137933c39758fb6d75
+  embed_script_url: https://gist.github.com/SiogunJH/7787619aedbfcd137933c39758fb6d75.js
+  status: Live preview enabled
