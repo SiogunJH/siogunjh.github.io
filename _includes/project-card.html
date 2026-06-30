@@ -12,13 +12,8 @@
     {% endfor %}
   </ul>
   {% endif %}
-  <div class="chip-row">
-    {% for tech in project.tech_stack %}
-    <span class="chip">{{ tech }}</span>
-    {% endfor %}
-  </div>
-  {% if project.links and project.links.size > 0 %}
-  <p class="inline-links">
+  <div class="card-bottom">
+    {% if project.links and project.links.size > 0 %}
     {% for link in project.links %}
     {% assign show_icon = page.url == '/' and link.icon %}
     {% if show_icon %}
@@ -41,6 +36,9 @@
     {% endif %}
     {% unless forloop.last %}{% unless show_icon %} / {% endunless %}{% endunless %}
     {% endfor %}
-  </p>
-  {% endif %}
+    {% endif %}
+    {% for tech in project.tech_stack %}
+    <span class="chip">{{ tech }}</span>
+    {% endfor %}
+  </div>
 </article>

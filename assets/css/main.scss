@@ -238,6 +238,20 @@ a {
   gap: 0.45rem;
 }
 
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 0.6rem;
+}
+
 .chip {
   display: inline-flex;
   align-items: center;
@@ -267,14 +281,6 @@ a {
 .level {
   color: var(--muted);
   font-size: 0.85rem;
-}
-
-.inline-links {
-  margin-bottom: 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.45rem;
 }
 
 .icon-link {
