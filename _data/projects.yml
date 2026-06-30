@@ -17,7 +17,8 @@
     - Steam (PC)
   links:
     - label: Steam
-      url: https://store.steampowered.com
+      url: https://store.steampowered.com/app/4173750/Angel_Engine/
+      icon: steam
 
 - id: primal-fray
   title: Primal Fray
@@ -41,7 +42,8 @@
     - Console Stores
   links:
     - label: Steam
-      url: https://store.steampowered.com
+      url: https://store.steampowered.com/app/2357350/Primal_Fray/
+      icon: steam
 
 - id: we-the-refugees
   title: We. The Refugees
@@ -61,7 +63,10 @@
     - Godot-to-Unity migration
   platforms:
     - Console target
-  links: []
+  links:
+    - label: Steam
+      url: https://store.steampowered.com/app/2094580/We_The_Refugees_Ticket_to_Europe/
+      icon: steam
 
 - id: rosa-a-tale-of-hunger
   title: "ROSA: A Tale of Hunger"
@@ -82,7 +87,8 @@
     - itch.io
   links:
     - label: itch.io
-      url: https://siogunjh.itch.io
+      url: https://siogunjh.itch.io/rosol-a-tale-of-hunger
+      icon: itch
 
 - id: path-to-babel
   title: A Path to Babel

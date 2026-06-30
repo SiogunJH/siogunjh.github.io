@@ -17,32 +17,44 @@
       level: Advanced
     - name: Input and Controller Support
       level: Advanced
-    - name: Localization Systems
-      level: Advanced
 
-- category: Unity Ecosystem
+- category: Unity Packages
   items:
     - name: UniTask
       level: Advanced
+      url: https://github.com/cysharp/unitask
     - name: DOTween
       level: Advanced
+      url: https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
     - name: Zenject
       level: Intermediate
+      url: https://github.com/modesttree/Zenject
     - name: Unity Analytics
       level: Intermediate
-    - name: Odin Inspector
+      url: https://docs.unity.com/en-us/analytics
+    - name: Odin
       level: Intermediate
-    - name: Unity Localization
+      url: https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041
+    - name: Localization
       level: Advanced
+      url: https://docs.unity3d.com/Packages/com.unity.localization@1.0/manual/index.html
 
 - category: Audio and Tooling
   items:
     - name: FMOD
       level: Intermediate
+
+- category: Version Control
+  items:
     - name: Git
       level: Advanced
     - name: Plastic SCM
-      level: Advanced
+      level: Intermediate
+    - name: SVN
+      level: Intermediate
+
+- category: Project Management
+  items:
     - name: ClickUp
       level: Intermediate
     - name: Notion
@@ -54,4 +66,3 @@
       level: Native
     - name: English
       level: C1
-

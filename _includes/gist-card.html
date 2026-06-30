@@ -1,22 +1,22 @@
 <article class="card gist-card">
   <header class="card-header">
-    <h3>{{ gist.title }}</h3>
-    <span class="badge">{{ gist.language }}</span>
+    <h3>{% if gist.gist_url %}<a href="{{ gist.gist_url }}" target="_blank" rel="noopener noreferrer">{{ gist.title }}</a>{% else %}{{ gist.title }}{% endif %}</h3>
+    <div class="gist-header-meta">
+      <span class="badge">{{ gist.language }}</span>
+      {% if gist.tags and gist.tags.size > 0 %}
+      {% for tag in gist.tags %}
+      <span class="chip">{{ tag }}</span>
+      {% endfor %}
+      {% endif %}
+    </div>
   </header>
   <p>{{ gist.description }}</p>
-  {% if gist.tags and gist.tags.size > 0 %}
-  <div class="chip-row">
-    {% for tag in gist.tags %}
-    <span class="chip">{{ tag }}</span>
-    {% endfor %}
-  </div>
+  {% if gist.embed_script_url %}
+  <details class="gist-toggle">
+    <summary>Preview</summary>
+    <div class="gist-preview" aria-label="Embedded gist preview">
+      <script src="{{ gist.embed_script_url }}"></script>
+    </div>
+  </details>
   {% endif %}
-  <p class="muted">{{ gist.status }}</p>
-  <p class="inline-links">
-    {% if gist.gist_url %}
-    <a href="{{ gist.gist_url }}" target="_blank" rel="noopener noreferrer">Open gist</a> /
-    {% endif %}
-    <a href="{{ gist.repository_url }}" target="_blank" rel="noopener noreferrer">GitHub profile</a>
-  </p>
 </article>
-

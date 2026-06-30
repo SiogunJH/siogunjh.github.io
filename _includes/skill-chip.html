@@ -1,5 +1,8 @@
 <li class="skill-item">
+  {% if skill.url %}
+  <a class="chip" href="{{ skill.url }}" target="_blank" rel="noopener noreferrer">{{ skill.name }}</a>
+  {% else %}
   <span class="chip">{{ skill.name }}</span>
+  {% endif %}
   <span class="level">{{ skill.level }}</span>
 </li>
-
