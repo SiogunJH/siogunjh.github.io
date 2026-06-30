@@ -1,0 +1,33 @@
+title: Jakub Hojda Portfolio
+email: homarofficial@gmail.com
+description: Portfolio site showcasing projects, skills, profile details, and technical gists.
+baseurl: ""
+url: "https://siogunjh.github.io"
+lang: en
+markdown: kramdown
+permalink: pretty
+
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Skills
+    url: /skills/
+  - title: Gists
+    url: /gists/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+

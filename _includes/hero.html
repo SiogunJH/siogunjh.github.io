@@ -1,0 +1,13 @@
+<section class="hero container">
+  <p class="hero-kicker">{{ include.kicker }}</p>
+  <h1>{{ include.title }}</h1>
+  <p class="hero-summary">{{ include.summary }}</p>
+  {% if include.links and include.links.size > 0 %}
+  <div class="hero-actions">
+    {% for link in include.links %}
+    <a class="button-link" href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>
+
