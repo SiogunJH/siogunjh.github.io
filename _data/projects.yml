@@ -59,8 +59,9 @@
     - Built project foundations and transferred implementation for continued development.
   tech_stack:
     - Unity
+    - Godot
     - C#
-    - Godot-to-Unity migration
+    - GDScript
   platforms:
     - Console target
   links:
