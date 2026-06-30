@@ -1,0 +1,18 @@
+<article class="card timeline-item">
+  <header class="card-header">
+    <h3>{{ item.role | default: item.degree }}</h3>
+    <span class="badge">{{ item.period }}</span>
+  </header>
+  <p class="muted">{{ item.organization | default: item.school }}</p>
+  {% if item.highlights and item.highlights.size > 0 %}
+  <ul class="card-list">
+    {% for point in item.highlights %}
+    <li>{{ point }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if item.specialization %}
+  <p><strong>Specialization:</strong> {{ item.specialization }}</p>
+  {% endif %}
+</article>
+

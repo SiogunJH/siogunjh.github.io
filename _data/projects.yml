@@ -1,0 +1,147 @@
+- id: angel-engine
+  title: Angel Engine
+  type: Commercial
+  status: Released
+  role: Unity Programmer
+  team_size: 8
+  period: 2025
+  summary: Developed gameplay mechanics and integrated audio-visual assets in an international team from early concept to release.
+  highlights:
+    - Implemented designer-defined core mechanics in Unity.
+    - Integrated 3D, audio, and VFX assets in close collaboration with artists.
+    - Supported handoff to a team responsible for visual style finalization.
+  tech_stack:
+    - Unity
+    - C#
+  platforms:
+    - Steam (PC)
+  links:
+    - label: Steam
+      url: https://store.steampowered.com
+
+- id: primal-fray
+  title: Primal Fray
+  type: Commercial
+  status: Released
+  role: Unity and Porting Specialist
+  team_size: 1
+  period: 2025 - 2026
+  summary: End-to-end implementation support for controller UX, localization, optimization, and console readiness.
+  highlights:
+    - Implemented dynamic platform-specific controller prompts for PS5, Xbox, and Nintendo Switch.
+    - Implemented localization system and UI integration.
+    - Improved loading times, memory usage, and disk write frequency.
+    - Implemented platform-required features using console SDK guidance.
+  tech_stack:
+    - Unity
+    - C#
+    - Console SDK
+  platforms:
+    - Steam
+    - Console Stores
+  links:
+    - label: Steam
+      url: https://store.steampowered.com
+
+- id: we-the-refugees
+  title: We. The Refugees
+  type: Commercial
+  status: Handover Complete
+  role: Solo Unity Developer
+  team_size: 1
+  period: 2025
+  summary: Recreated core functionality of a Godot title in Unity as preparation for console release.
+  highlights:
+    - Analyzed existing architecture and mapped it to Unity systems.
+    - Implemented decision system, inventory system, and dialogue resource parser.
+    - Built project foundations and transferred implementation for continued development.
+  tech_stack:
+    - Unity
+    - C#
+    - Godot-to-Unity migration
+  platforms:
+    - Console target
+  links: []
+
+- id: rosa-a-tale-of-hunger
+  title: "ROSA: A Tale of Hunger"
+  type: Personal
+  status: Playable Build
+  role: Solo Developer
+  team_size: 1
+  period: Ongoing
+  summary: A tactical combat prototype with directional attacks and timing-focused encounters.
+  highlights:
+    - Implemented turn-based encounter loop with delayed directional attacks.
+    - Added increasing-difficulty encounters and gameplay tutorial text.
+    - Published downloadable build and preview video on itch.io.
+  tech_stack:
+    - Unity
+    - C#
+  platforms:
+    - itch.io
+  links:
+    - label: itch.io
+      url: https://siogunjh.itch.io
+
+- id: path-to-babel
+  title: A Path to Babel
+  type: Personal
+  status: In Development
+  role: Solo Developer
+  team_size: 1
+  period: Ongoing
+  summary: Voice-driven gameplay experiment based on speech-to-text and NLP-assisted command resolution.
+  highlights:
+    - Implemented speech-driven locomotion and dialogue interactions.
+    - Built dynamic point-of-interest interaction system.
+    - Integrated command intent parsing and confidence thresholds.
+  tech_stack:
+    - Unity
+    - C#
+    - STT
+    - NLP
+    - Vosk
+  platforms:
+    - Internal prototype
+  links: []
+
+- id: last-lump-of-coal
+  title: Last Lump of Coal
+  type: Personal
+  status: In Development
+  role: Gameplay Programmer
+  team_size: 2
+  period: Ongoing
+  summary: Cooperative survival concept centered on train maintenance and environmental threats.
+  highlights:
+    - Implemented fully playable train-driving system.
+    - Added five enemy archetypes and associated gameplay interactions.
+    - Built a stable gameplay core for future content expansion.
+  tech_stack:
+    - Unity
+    - C#
+  platforms:
+    - Internal prototype
+  links: []
+
+- id: voice-intent-system
+  title: Voice Intent Analysis and Matching System
+  type: Technical Case Study
+  status: Implemented
+  role: System Designer and Programmer
+  team_size: 1
+  period: 2026
+  summary: Unity C# architecture that converts raw speech recognition output into gameplay commands using token and fuzzy matching.
+  highlights:
+    - Built IntentTokenMatcher with required, optional, and forbidden token logic.
+    - Built IntentFuzzyMatcher with Levenshtein similarity and configurable confidence threshold.
+    - Combined matcher outputs to select best intent for gameplay command execution.
+  tech_stack:
+    - Unity
+    - C#
+    - Vosk4Unity
+    - NLP
+  platforms:
+    - Internal systems
+  links: []
