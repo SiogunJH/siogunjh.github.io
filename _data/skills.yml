@@ -1,22 +1,39 @@
-- category: Core Development
+- category: Game Engines
   items:
     - name: Unity Engine
       level: Expert
+    - name: Unreal Engine 5
+      level: Basic
+    - name: Godot
+      level: Basic
+
+- category: Programming Languages
+  items:
     - name: C#
       level: Expert
-    - name: Gameplay Systems
-      level: Advanced
-    - name: Performance Optimization
-      level: Advanced
+    - name: Python
+      level: Intermediate
+    - name: GDScript
+      level: Basic
+    - name: C++
+      level: Basic
+    - name: JavaScript
+      level: Basic
 
-- category: Porting and Platform
+- category: Platforms
   items:
-    - name: Console Porting Workflow
+    - name: PC
+      level: Expert
+    - name: PlayStation 5
       level: Advanced
-    - name: Console SDK Integration
+    - name: Xbox Series X
       level: Advanced
-    - name: Input and Controller Support
-      level: Advanced
+    - name: Nintendo Switch
+      level: Intermediate
+    - name: Android
+      level: Intermediate
+    - name: Steam Deck
+      level: Basic
 
 - category: Unity Packages
   items:
@@ -38,17 +55,76 @@
     - name: Localization
       level: Advanced
       url: https://docs.unity3d.com/Packages/com.unity.localization@1.0/manual/index.html
+    - name: Addressables
+      level: Advanced
+      url: https://docs.unity3d.com/Packages/com.unity.addressables@1.19/manual/index.html
+    - name: Input System
+      level: Advanced
+      url: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.6/manual/index.html
+    - name: Post Processing
+      level: Intermediate
+      url: https://docs.unity3d.com/Packages/com.unity.postprocessing@3.1/manual/index.html
+    - name: Cinemachine
+      level: Intermediate
+      url: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.8/manual/index.html
 
-- category: Audio and Tooling
+- category: Audio
   items:
     - name: FMOD
+      level: Advanced
+    - name: Unity Audio
+      level: Advanced
+    - name: Audacity
       level: Intermediate
+    - name: Wwise
+      level: Basic
+    - name: FL Studio
+      level: Basic
+
+- category: Graphics 2D
+  items:
+    - name: Krita
+      level: Intermediate
+    - name: Photoshop
+      level: Basic
+    - name: GIMP
+      level: Basic
+    - name: Aseprite
+      level: Basic
+
+- category: Graphics 3D
+  items:
+    - name: Blender
+      level: Intermediate
+    - name: Blockbench
+      level: Basic
+
+- category: UI/UX
+  items:
+    - name: Figma
+      level: Basic
+
+- category: VFX
+  items:
+    - name: Unity VFX Graph
+      level: Intermediate
+    - name: Unity Particle System
+      level: Intermediate
+
+- category: Unity Pipelines
+  items:
+    - name: URP
+      level: Advanced
+    - name: HDRP
+      level: Basic
+    - name: Built-in
+      level: Basic
 
 - category: Version Control
   items:
     - name: Git
       level: Advanced
-    - name: Plastic SCM
+    - name: Unity Version Control
       level: Intermediate
     - name: SVN
       level: Intermediate
