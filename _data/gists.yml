@@ -1,12 +1,20 @@
-- id: sample-gist-preview
+- id: camera-controller-unity-csharp
   title: Camera Controller (Unity C#)
-  description: Unity CameraController component using Cinemachine priorities, Zenject injection, and focus/unfocus events coordinated by CameraManager.
+  description: Basic camera management system for Unity, which utilizes Cinemachine, Zenject, and Odin Inspector.
   language: C#
   tags:
     - Unity
     - Cinemachine
-    - Zenject
-    - Odin
   gist_url: https://gist.github.com/SiogunJH/7787619aedbfcd137933c39758fb6d75
   embed_script_url: https://gist.github.com/SiogunJH/7787619aedbfcd137933c39758fb6d75.js
-  status: Live preview enabled
+
+- id: perlin-noise-generator-unity-csharp
+  title: Perlin Noise Generators (Unity C#)
+  description: Lightweight Perlin Noise generators for Unity in the form of MonoBehaviour components. Self-contained and easy to use through exposed events.
+  language: C#
+  tags:
+    - Unity
+    - Perlin Noise
+    - UniTask
+  gist_url: https://gist.github.com/SiogunJH/25776b6fe6291ed7363803d35e780025
+  embed_script_url: https://gist.github.com/SiogunJH/25776b6fe6291ed7363803d35e780025.js
