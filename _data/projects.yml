@@ -2,10 +2,10 @@
   title: Angel Engine
   type: Commercial
   status: Released
-  role: Unity Programmer
+  role: Unity Specialist
   team_size: 8
   period: 2025
-  summary: Developed gameplay mechanics and integrated audio-visual assets in an international team from early concept to release.
+  summary: Developed gameplay mechanics and integrated audio-visual assets in an international team from early concept through prototyping.
   highlights:
     - Implemented designer-defined core mechanics in Unity.
     - Integrated 3D, audio, and VFX assets in close collaboration with artists.
@@ -26,7 +26,7 @@
   status: Released
   role: Unity and Porting Specialist
   team_size: 1
-  period: 2025 - 2026
+  period: 2025
   summary: End-to-end implementation support for controller UX, localization, optimization, and console readiness.
   highlights:
     - Implemented dynamic platform-specific controller prompts for PS5, Xbox, and Nintendo Switch.
@@ -39,7 +39,9 @@
     - Console SDK
   platforms:
     - Steam
-    - Console Stores
+    - PlayStation 5
+    - Xbox Series X
+    - Nintendo Switch
   links:
     - label: Steam
       url: https://store.steampowered.com/app/2357350/Primal_Fray/
@@ -49,10 +51,10 @@
   title: We. The Refugees
   type: Commercial
   status: Handover Complete
-  role: Solo Unity Developer
+  role: Porting Specialist
   team_size: 1
   period: 2025
-  summary: Recreated core functionality of a Godot title in Unity as preparation for console release.
+  summary: Recreated core gameplay functionality of a Godot title in Unity as preparation for console release.
   highlights:
     - Analyzed existing architecture and mapped it to Unity systems.
     - Implemented decision system, inventory system, and dialogue resource parser.
@@ -69,8 +71,8 @@
       url: https://store.steampowered.com/app/2094580/We_The_Refugees_Ticket_to_Europe/
       icon: steam
 
-- id: rosa-a-tale-of-hunger
-  title: "ROSA: A Tale of Hunger"
+- id: rosol-a-tale-of-hunger
+  title: "ROSÓŁ: A Tale of Hunger"
   type: Personal
   status: Playable Build
   role: Solo Developer
@@ -117,10 +119,10 @@
   title: Last Lump of Coal
   type: Personal
   status: In Development
-  role: Gameplay Programmer
+  role: Unity Specialist
   team_size: 2
   period: Ongoing
-  summary: Cooperative survival concept centered on train maintenance and environmental threats.
+  summary: Survival horror concept centered on train maintenance and environmental threats.
   highlights:
     - Implemented fully playable train-driving system.
     - Added five enemy archetypes and associated gameplay interactions.

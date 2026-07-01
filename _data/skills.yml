@@ -17,7 +17,7 @@
       level: Basic
     - name: C++
       level: Basic
-    - name: JavaScript
+    - name: HLSL
       level: Basic
 
 - category: Platforms
@@ -84,6 +84,8 @@
 - category: Graphics 2D
   items:
     - name: Krita
+      level: Intermediate
+    - name: Shader Graph
       level: Intermediate
     - name: Photoshop
       level: Basic
