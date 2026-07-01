@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Skills
-description: Expertise and tools used across development, optimization, and release workflows.
+description: My expertise on processes, applications and tools used across development and release workflows.
 permalink: /skills/
 ---
-{% include section-title.html title="Expertise map" subtitle="Grouped skills for quick review." %}
+{% include section-title.html title="Hard Skills" subtitle="Grouped by category." %}
 <div class="grid grid-2">
   {% for group in site.data.skills %}
   <article class="card">
